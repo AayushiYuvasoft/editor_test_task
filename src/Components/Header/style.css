@@ -1,0 +1,28 @@
+.logo-wrapper{
+    border-right: 1px solid #ffffff14;
+}
+.proile-btn{
+    width: 156px;
+}
+.menu-list{
+    gap: 32px
+}
+
+.menu-list li a{
+    color: #5D677D
+}
+
+.menu-list li a.active{
+    color: #007AFF;
+    position: relative;
+}
+
+.menu-list li a.active::after{
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 2px;
+    background: #007AFF;
+    bottom: -8px;
+    left: calc(50% - 12px);
+}

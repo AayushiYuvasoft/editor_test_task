@@ -1,0 +1,14 @@
+.breadcrumb-link{
+    color: #7B8191;
+}
+.seperator{
+    margin: 6px;
+    color: #7B8191;
+}
+
+.breadcrumb-link:last-child{
+    color: #EEEEEE
+}
+.breadcrumb-wrapper{
+    margin: 16px 0 12px;
+}
